@@ -1,0 +1,72 @@
+@import 'reset.css';
+
+body {
+    background-color: #656D78;
+}
+
+.container {
+    max-width: 1220px;
+    overflow: hidden;
+    margin: 60px auto 60px auto;
+}
+
+.card-holder-margin,
+.card-holder-padding,
+.card-holder-margin-2 {
+    position: relative;
+    font-size: 0;
+}
+
+.card-holder-margin,
+.card-holder-padding {
+    margin: 0 -15px;
+}
+
+.card-holder-margin .card,
+.card-holder-padding .card-wrapper,
+.card-holder-margin-2 .card {   
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.card-holder-margin .card {
+    width: calc(33.33% - 30px);    
+    margin: 0 15px;
+}
+
+.card-holder-padding .card-wrapper {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.card-holder-margin-2 .card {
+    width: calc((100% - 60px)/3);
+}
+
+.card-holder-margin-2 .card:not(:first-child) {
+    margin-left: 30px;
+}
+
+.card {
+    background-color: white;
+    min-height: 350px;
+}
+
+.card__section {
+    padding: 20px 30px;
+    color: white;
+    min-height: 200px;
+}
+
+.card__section-1 {
+    background-color: #AAB2BD;
+}
+
+.card__section-2 {
+    background-color: #36BC9B;
+}
+
+.card__section-3 {
+    background-color: #967BDC;
+}

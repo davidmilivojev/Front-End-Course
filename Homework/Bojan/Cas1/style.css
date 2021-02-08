@@ -1,0 +1,65 @@
+@import 'reset.css';
+
+.sectionOne {
+    background-color: gray;
+    max-height: 500px;
+    padding: 50px;
+}
+
+.section-wrapper {
+    position: relative;
+    display: inline;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.33% - 40px);
+    min-height: 300px;
+    border: 1px solid gray;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.card p {
+    min-height: 200px;
+    font-size: 16px;
+    padding: 15px 20px;
+    line-height: 22px;
+}
+
+.card-1 p {
+    background-color: gainsboro;
+}
+
+.card-2 p {
+    background-color: green;
+}
+
+.card-3 p {
+    background-color: purple;
+}
+
+
+
+.sectionTwo {
+    background-color: gainsboro;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.sectionTwo .card {
+    width: 33.33%;
+    margin: 0;
+    padding: 0 20px;
+    min-height: 0;
+    border: none;
+    background-color: gainsboro;
+}
+
+.sectionTwo .card-content {
+    min-height: 300px;
+    border: 1px solid gray;
+    background-color: white;
+}
