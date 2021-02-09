@@ -1,0 +1,80 @@
+@import "reset.css";
+
+body {
+  background-color: #636c7b;
+}
+
+/* First block */
+.container-one {
+  max-width: 1200px;
+  margin: 100px auto;
+  font-size: 0;
+}
+
+.container-one .card {
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 350px;
+  width: calc(33.33% - 40px);
+  margin: 0 20px;
+}
+
+.container-one .card p {
+  min-height: 250px;
+  padding: 25px;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+
+.container-one .card-1 p {
+  background-color: #adb5c1;
+}
+
+.container-one .card-2 p {
+  background-color: #38bb9b;
+}
+
+.container-one .card-3 p {
+  background-color: #a484dc;
+}
+
+/* Second block */
+.container-two {
+  max-width: 1200px;
+  margin: 100px auto;
+  font-size: 0;
+}
+
+.container-two .card {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33%;
+  padding: 0 20px;
+}
+
+.container-two .card .inner {
+  background-color: white;
+  min-height: 350px;
+}
+
+.container-two .card .inner p {
+  min-height: 250px;
+  padding: 25px;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+
+.container-two .card-1 .inner p {
+  background-color: #adb5c1;
+}
+
+.container-two .card-2 .inner p {
+  background-color: #38bb9b;
+}
+
+.container-two .card-3 .inner p {
+  background-color: #a484dc;
+}
