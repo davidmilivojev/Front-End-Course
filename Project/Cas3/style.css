@@ -1,0 +1,65 @@
+@import 'reset.css';
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.wrapper::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.logo {
+    display: block;
+    float: left;
+}
+.logo-img {
+    display: inline-block;
+    height: 40px;
+}
+.header-search {
+    display: block;
+    float: right;
+}
+.nav {
+    display: inline-block;
+}
+.nav-list-item {
+    display: inline-block;
+}
+.nav-list-link {
+    display: block;
+}
+
+.card-holder {
+    display: flex;
+}
+.card {
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+    min-height: 100px;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+.card-1 {
+    background-color: #fff;
+}
+.card-2 {
+    background-color: #54f;
+}
+.card-3 {
+    background-color: #6c0;
+}

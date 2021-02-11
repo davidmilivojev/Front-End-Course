@@ -1,0 +1,105 @@
+@import "reset.css";
+
+/* Header */
+.nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 50px;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-list::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav-list li:first-of-type {
+  float: left;
+  padding-top: 5px;
+}
+
+.nav-list li:last-of-type {
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+
+.nav-item a {
+  display: block;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4c4c4c;
+}
+
+.nav-item-active a {
+  color: #10c9c3;
+}
+
+.nav-btn {
+  float: right;
+}
+
+.nav-btn a {
+  color: white;
+  padding: 0 60px;
+  background-color: #10c9c3;
+}
+
+/* Footer */
+.container {
+  margin-top: 200px;
+  height: 250px;
+  padding: 75px 150px;
+  background-color: #141414;
+  font-size: 0;
+}
+
+.section {
+  display: inline-block;
+  width: 50%;
+}
+
+.section-two {
+  padding-left: 50px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 28px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.section-text {
+  color: grey;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.subsection {
+  display: inline-block;
+  width: 50%;
+}
+
+.subsection-two {
+  text-align: end;
+}
+
+.subsection-item a {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: grey;
+}
