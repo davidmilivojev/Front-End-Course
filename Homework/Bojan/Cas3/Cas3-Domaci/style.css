@@ -1,0 +1,98 @@
+@import 'reset.css';
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-card {
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+}
+
+.logo {
+    display: block;
+    padding-top: 10px;
+}
+
+.header-card--2 {
+    text-align: center;
+}
+
+.ul-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.header-list-item {
+    padding: 0 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-card--3 {
+    text-align: right;
+}
+
+.search {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(73, 133, 113);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.footer {
+    background-color: rgb(71, 67, 67);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-card {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+.footer-card--left p {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-card--left h2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-card--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card-item {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}

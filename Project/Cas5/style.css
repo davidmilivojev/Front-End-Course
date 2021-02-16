@@ -1,0 +1,18 @@
+@import 'reset.css';
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.wrapper::after {
+    content: '';
+    clear: both;
+    display: table;
+}
