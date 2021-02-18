@@ -1,0 +1,106 @@
+@import "reset.css";
+
+.block-1 {
+  min-height: 550px;
+  background-image: url("background.jpg");
+}
+
+.text {
+  text-align: center;
+}
+
+.text-title {
+  font-size: 60px;
+  padding: 130px 0 30px;
+}
+
+.text-description {
+  font-size: 20px;
+  line-height: 26px;
+  color: grey;
+}
+
+.block-2 {
+  min-height: 350px;
+  background-color: tomato;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.wrapper-1 {
+  max-width: 1000px;
+}
+
+.wrapper-2 {
+  max-width: 1200px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin-top: -140px;
+  position: relative;
+  min-height: 330px;
+  max-width: 31%;
+  flex: 1 1 31%;
+  padding: 0 60px 40px 40px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.card-img {
+  position: relative;
+  margin: -40px 0 25px 0;
+}
+
+.card-img-circle {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: dodgerblue;
+}
+
+.card-img-icon {
+  position: absolute;
+  width: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 32px;
+  color: grey;
+}
+
+.card-text {
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: darkgrey;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 18px;
+  color: deepskyblue;
+}
+
+.arrow-right {
+  border: solid deepskyblue;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(-45deg);
+}
