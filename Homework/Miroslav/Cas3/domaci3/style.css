@@ -1,0 +1,144 @@
+@import 'reset.css';
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.b-header {
+    padding: 35px 0;
+}
+
+.b-header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.b-header .b-header__block {    
+    font-size: 16px;
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+}
+
+.b-header__block-logo {
+    display: inline-block;
+}
+
+.b-header__block-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.b-header__block-nav-item {
+    margin: 0 15px;
+}
+
+.b-header__block-nav-link {
+    color: #191919;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.b-header__block-nav-link:hover {
+    color: #10C9C3;
+}
+
+.b-header__block-nav-btn {
+    background-color: #10C9C3;
+    color: white;
+    border: 1px solid #10C9C3;
+    transition: 0.2s linear;
+    text-decoration: none;
+    padding: 12px 48px;
+    font-size: 18px;
+}
+
+.b-header__block-nav-btn:hover {
+    color: #10C9C3;
+    background-color: white;
+}
+
+.b-header__block--right {
+    text-align: right;
+}
+
+/* footer */
+
+.b-footer {
+    background-color: #141414;
+    padding: 100px 0;
+    position: relative;
+    font-size: 0;
+}
+
+.b-footer-wrapper {
+    display: flex;
+}
+
+.b-footer .b-footer__block {
+    font-size: 16px;    
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+.b-footer__block-title {
+    color: #f5f5f5;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.b-footer__block-copyright,
+.b-footer__block-trademark {
+    color: #e2e2e2;
+    font-size: 14px;
+}
+
+.b-footer__block-copyright {
+    margin-bottom: 5px;
+}
+
+.b-footer__divider {
+    background: #AD191F;
+    width: 3px;
+    position: absolute;
+    border: none;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.b-footer__block--right {
+    padding-left: 40px;
+}
+
+.b-footer__block-links {
+    float: left;
+}
+
+.b-footer__block-social {
+    float: right;
+}
+
+.b-footer__block-link,
+.b-footer__block-social-link {
+    color: #e2e2e2;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;    
+    transition: 0.2s linear;
+}
+
+.b-footer__block-link:hover, 
+.b-footer__block-social-link:hover {
+    color: white;
+}
