@@ -1,0 +1,113 @@
+@import 'reset.css';
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.wrapper::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+body {
+    padding-top: 80px;
+}
+.header {
+    min-height: 80px;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header--sticky {
+    background-color: blue;
+    position: fixed;
+}
+.box {
+    min-height: 900px;
+    border: 1px solid black;
+    background-color: beige;
+    position: relative;
+    cursor: none;
+}
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    display: none;
+}
+.toggle-line {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    transition: 0.6s ease;
+}
+.toggle-line::before,
+.toggle-line::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    transition: 0.6s ease;
+}
+.toggle-line::before {
+    top: -10px;
+}
+.toggle-line::after {
+    top: 10px;
+}
+.nav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: orange;
+    z-index: 2;
+    padding: 20px;
+    display: none;
+}
+.toggle--open .toggle-line {
+    background-color: transparent;
+}
+.toggle--open .toggle-line::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+.toggle--open .toggle-line::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+.cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: tomato;
+    pointer-events: none;
+}
+@media screen and (max-width: 767px) {
+    .toggle {
+        display: block;
+    }
+}
