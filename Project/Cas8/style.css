@@ -19,3 +19,30 @@
 body {
     padding-top: 80px;
 }
+
+* {
+    box-sizing: border-box;
+}
+.text {
+    border: 1px solid black;
+}
+.btn {
+    outline: 0;
+    border: 1px solid black;
+    padding: 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.set {
+    background-color: greenyellow;
+}
+.get {
+    background-color: blue;
+}
+.rem,
+.clear {
+    background-color: red;
+}
