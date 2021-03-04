@@ -10,21 +10,82 @@
 <body>
     <!-- cas1 -->
     <div class="container">
-        <div class="card card-1">
-            <h3 class="card-title">Title Lorem, ipsum dolor sit amet consectetur </h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, commodi. Exercitationem dolore quo, modi laboriosam architecto iusto est quis vero! Quam eum corrupti deserunt fugit soluta, reiciendis ex. Perspiciatis, adipisci.</p>
-		</div>
-        <div class="card card-2">
-            <h3 class="card-title">Title</h3>
-            <p>Lorem, ipsum dolor sitit. Fugiat, commodi. Exercitationem dolore quo, modi laboriosam architecto iusto est quis vero! Quam eum corrupti deserunt fugit soluta, reiciendis ex. Perspiciatis, adipisci.</p>
-		</div>
-        <div class="card card-3">
-            <h3 class="card-title">Title Lorem, iponsectetur </h3>
-            <p>Lorem, ipsum dolor sit  ex. Perspiciatis, adipisci.</p>
-		</div>
+        <div class="js-slider">
+            <div class="card card-1 js-card">
+                <h3 class="card-title">Title Lorem, ipsum dolor sit amet consectetur </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, commodi. Exercitationem dolore quo, modi laboriosam architecto iusto est quis vero! Quam eum corrupti deserunt fugit soluta, reiciendis ex. Perspiciatis, adipisci.</p>
+            </div>
+            <div class="card card-2 js-card">
+                <h3 class="card-title">Title</h3>
+                <p>Lorem, ipsum dolor sitit. Fugiat, commodi. Exercitationem dolore quo, modi laboriosam architecto iusto est quis vero! Quam eum corrupti deserunt fugit soluta, reiciendis ex. Perspiciatis, adipisci.</p>
+            </div>
+            <div class="card card-3 js-card">
+                <h3 class="card-title">Title Lorem, iponsectetur </h3>
+                <p>Lorem, ipsum dolor sit  ex. Perspiciatis, adipisci.</p>
+            </div>
+            <div class="card card-1 js-card">
+                <h3 class="card-title">Title Lorem, ipsum dolor sit amet consectetur </h3>
+                <p>Lolore quo, modi laboriosam architecto iusto est quis vero! Quam eum corrupti deserunt fugit soluta, reiciendis ex. Perspiciatis, adipisci.</p>
+            </div>
+            <div class="card card-2 js-card">
+                <h3 class="card-title">Title</h3>
+                <p>Lorem, ipsum quo, modi laboriosam architecto iusto est quis vero! Quam eum corrupti deserunt fugit soluta, reiciendis ex. Perspiciatis, adipisci.</p>
+            </div>
+            <div class="card card-3 js-card">
+                <h3 class="card-title">Title Lorem, iponsectetur </h3>
+                <p>Lorem, ipsum dolor sit  ex. Perspiciatis, adipisci.</p>
+            </div>
+        </div>
     </div>
+    <!-- Slider main container -->
+    <div class="swiper-container js-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="card card-3 js-card">
+                <h3 class="card-title">Title Lorem, iponsectetur </h3>
+                <p>Lorem, ipsum dolor sit  ex. Perspiciatis, adipisci.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card card-3 js-card">
+                <h3 class="card-title">Title Lorem, iponsectetur </h3>
+                <p>Lorem, ipsum dolor sit  ex. Perspiciatis, adipisci.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card card-3 js-card">
+                <h3 class="card-title">Title Lorem, iponsectetur </h3>
+                <p>Lorem, ipsum dolor sit  ex. Perspiciatis, adipisci.</p>
+            </div>
+        </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
     <!-- js -->
     <script src="jquery.js"></script>
+    <script src="matchHeight.js"></script>
+    <script src="slick.js"></script>
+    <script src="swiper.js"></script>
+    <script src="selectric.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

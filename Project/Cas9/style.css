@@ -1,5 +1,7 @@
 @import 'reset.css';
-
+@import 'selectric.css';
+/* @import 'slick.css';
+@import 'swiper.css'; */
 
 .container {
     max-width: 1000px;
